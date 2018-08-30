@@ -1,0 +1,14 @@
+#OSX
+.DS_Store
+
+#Editors, IDEs
+*.swp
+*.iml
+.idea
+*.sublime-project
+*.sublime-workspace
+
+node_modules
+todo.txt
+npm-debug.log
+.eslintcache
