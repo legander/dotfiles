@@ -13,5 +13,7 @@
     "key": "shift+alt+f",
     "command": "editor.action.formatSelection",
     "when": "editorHasSelection && editorTextFocus && !editorReadonly"
-  }
+  },
+  { "key": "cmd+l", "command": "workbench.action.gotoLine" }
 ]
+
