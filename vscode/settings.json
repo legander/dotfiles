@@ -18,5 +18,6 @@
     },
     "emmet.showExpandedAbbreviation": "never",
     "window.zoomLevel": 0,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "editor.renderWhitespace": "boundary"
 }
