@@ -15,7 +15,7 @@
     st = status
     br = branch
     co = checkout
-    ci = commit
+    cm = commit
     sh = stash
     di = diff
     dica = diff --cached

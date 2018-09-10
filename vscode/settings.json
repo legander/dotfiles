@@ -19,5 +19,6 @@
     "emmet.showExpandedAbbreviation": "never",
     "window.zoomLevel": 0,
     "explorer.confirmDelete": false,
-    "editor.renderWhitespace": "boundary"
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [80, 100]
 }
