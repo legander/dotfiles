@@ -16,10 +16,12 @@
     br = branch
     co = checkout
     cm = commit
+    ci = commit
     sh = stash
     di = diff
     dica = diff --cached
     new = log --branches --not --remotes
+    release = !git flow release start `date +'%Y%m%d-%k%M00'`
 
 [mergetool "p4merge"]
     cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "\"$PWD/$BASE\"" "\"$PWD/$REMOTE\"" "\"$PWD/$LOCAL\"" "\"$PWD/$MERGED\""

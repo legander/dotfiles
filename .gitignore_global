@@ -12,3 +12,5 @@ node_modules
 todo.txt
 npm-debug.log
 .eslintcache
+
+/venv
