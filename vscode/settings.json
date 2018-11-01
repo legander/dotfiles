@@ -1,24 +1,29 @@
 {
-    "editor.tabSize": 2,
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/dist": true,
-        "dist": true,
-        "**/node_modules": true,
-        "**/*.zip": true,
-        "**/venv": true,
-        "**/messages": true
-    },
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "emmet.showExpandedAbbreviation": "never",
-    "window.zoomLevel": 0,
-    "explorer.confirmDelete": false,
-    "editor.renderWhitespace": "boundary",
-    "editor.rulers": [80, 100]
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/dist": true,
+    "dist": true,
+    "**/node_modules": true,
+    "**/*.zip": true,
+    "**/venv": true,
+    "**/messages": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.showExpandedAbbreviation": "never",
+  "window.zoomLevel": 0,
+  "explorer.confirmDelete": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [100],
+  //   "editor.rulers": [80, 100],
+  "editor.formatOnSave": false,
+  "[handlebars]": {
+    "editor.formatOnSave": false
+  }
 }
