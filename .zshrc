@@ -18,6 +18,11 @@ bindkey '^[forward-word' forward-word
 alias c="clear"
 alias f='open -a Finder ./'
 alias dc='docker-compose'
+alias nodeinspect='node --inspect-brk --inspect'
+alias sls-local-brk='node --inspect-brk --inspect $(which serverless) invoke local'
+alias sls-local-exec='$(which serverless) invoke local'
+# list what should be removed // remove `n` flag to delete
+# git clean -nfd
 
 export NVM_DIR="/Users/legander/.nvm"
 # load nvm
@@ -35,6 +40,13 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PATH=${PATH}:/Users/Legander/Library/android/sdk/platform-tools:/Users/Legander/Library/android/sdk/tools
 export PATH=$PATH:node_modules/.bin:$PATH
 
+
+# React native Android
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
