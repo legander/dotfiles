@@ -14,5 +14,10 @@
     "command": "editor.action.formatSelection",
     "when": "editorHasSelection && editorTextFocus && !editorReadonly"
   },
-  { "key": "cmd+l", "command": "workbench.action.gotoLine" }
+  { "key": "cmd+l", "command": "workbench.action.gotoLine" },
+  {
+    "key": "cmd+r",
+    "command": "workbench.files.action.refreshFilesExplorer",
+    "when": "editorTextFocus"
+  }
 ]
