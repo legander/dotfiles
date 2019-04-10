@@ -28,8 +28,13 @@
   "files.autoSave": "afterDelay",
   "files.trimTrailingWhitespace": true,
   "python.formatting.autopep8Args": ["--max-line-length", "80"],
-  "powermode.enabled": true,
-  "powermode.presets": "flames",
+  "powermode.enabled": false,
   "window.zoomLevel": 0,
-  "breadcrumbs.enabled": true
+  "breadcrumbs.enabled": true,
+  "powermode.presets": "fireworks",
+  "powermode.comboThreshold": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "update.mode": "none"
 }
