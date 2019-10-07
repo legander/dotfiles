@@ -13,14 +13,26 @@
 					],
 					"description": "Log output to console"
 			}
-	*/
+  */
+  "SvgIcon": {
+    "prefix": "svgicon",
+    "body": "<SvgIcon name=\"${1}\" />"
+  },
   "JS: Promise.all": {
     "prefix": "promiseall",
     "body": "Promise.all([\n\n${1}]).then(([${2}]) => {\n\n});"
   },
   "JS: Import": {
     "prefix": "simport",
+    "body": "import {${1}} from \"${2}\";"
+  },
+  "JS: Default Import": {
+    "prefix": "dimport",
     "body": "import ${1} from \"${2}\";"
+  },
+  "React: import": {
+    "prefix": "rimp",
+    "body": "import React from \"react\";"
   },
   "React: component skeleton": {
     "prefix": "cc",

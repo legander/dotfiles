@@ -6,8 +6,8 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/dist": true,
-    "dist": true,
+    // "**/dist": true,
+    // "dist": true,
     "**/node_modules": true,
     "**/*.zip": true,
     "**/venv": true,
@@ -28,13 +28,24 @@
   "files.autoSave": "afterDelay",
   "files.trimTrailingWhitespace": true,
   "python.formatting.autopep8Args": ["--max-line-length", "80"],
-  "powermode.enabled": false,
   "window.zoomLevel": 0,
   "breadcrumbs.enabled": true,
-  "powermode.presets": "fireworks",
-  "powermode.comboThreshold": 2,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "update.mode": "none"
+  "update.mode": "none",
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "typescriptreact"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "typescript.tsserver.log": "verbose"
 }

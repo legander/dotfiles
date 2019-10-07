@@ -54,3 +54,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /Users/legander/Documents/work/sls-har-recorder/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/legander/Documents/work/sls-har-recorder/node_modules/tabtab/.completions/sls.zsh
+
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /Users/legander/.npm/_npx/44311/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/legander/.npm/_npx/44311/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh
